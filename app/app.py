@@ -15,15 +15,15 @@ st.write(
 )
 
 performance_model = joblib.load(
-    "../models/performance_model.pkl"
+    "models/performance_model.pkl"
 )
 
 career_model = joblib.load(
-    "../models/career_classifier.pkl"
+    "models/career_classifier.pkl"
 )
 
 label_encoder = joblib.load(
-    "../models/label_encoder.pkl"
+    "models/label_encoder.pkl"
 )
 
 st.sidebar.header("Student Inputs")
